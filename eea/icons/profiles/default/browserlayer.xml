@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <layers>
   <layer name="eea.icons.layer"
-    interface="eea.icons.interfaces.ILayer" />
+    interface="eea.icons.interfaces.IEEAIconsLayer" />
 </layers>

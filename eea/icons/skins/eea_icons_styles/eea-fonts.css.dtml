@@ -1,11 +1,12 @@
-/* <dtml-with base_properties> */
+/* <dtml-with <base_properties> */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> */
+
 /*!
  *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
-/* FONT PATH
- * -------------------------- */
+
+
 @font-face {
   font-family: 'FontAwesome';
   src: url('&dtml-portal_url;/fontawesome-webfont.eot?v=4.0.3');
@@ -1341,3 +1342,6 @@
 .eea-icon-plus-square-o:before {
   content: "\f196";
 }
+
+
+/* END OF eea-fonts.CSS RULES </dtml-with> */

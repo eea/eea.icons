@@ -1,12 +1,12 @@
 """ Public interfaces
 """
-from zope.interface import IInterface
+from zope.interface import Interface
 
 
-class ILayer(IInterface):
-    """ EEA Icom Browser layer
+class IEEAIconsLayer(Interface):
+    """ EEAICons Browser layer
     """
 
 __all__ = [
-    ILayer.__name__,
+    IEEAIconsLayer.__name__,
 ]
