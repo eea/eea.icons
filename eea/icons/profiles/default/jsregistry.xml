@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <object name="portal_javascripts" meta_type="javascripts registry">
 
-    <javascript id="eea-icons.js" remove="True" />
+    <javascript id="eea-icons.js" />
 
 </object>
-

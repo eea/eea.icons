@@ -1,4 +1,4 @@
-/* <dtml-with <base_properties> */
+/* <dtml-with base_properties> */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> */
 
 /*!
