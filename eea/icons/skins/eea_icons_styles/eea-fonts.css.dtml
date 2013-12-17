@@ -17,18 +17,45 @@
   font-weight: normal;
   font-style: normal;
 }
-.eea-icon {
-  display: inline-block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* #15235; Expose FontAwesome through eea-icon-* classes */
+/* our own customization or extra classes */
+.eea-icon:before,
+.eea-icon:after {
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+    line-height: inherit;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    speak: none;
 }
+
+.eea-icon-right {
+    float: right;
+}
+
+.eea-icon-left {
+    float: left;
+}
+
+.eea-icon:before {
+    margin:0 .3em;
+}
+.eea-icon.eea-icon-left {
+    margin-right: .3em;
+}
+
+.eea-icon.eea-icon-right {
+    margin-left: .3em;
+}
+
+/* end own customizations */
+
 /* makes the font 33% larger relative to the icon container */
 .eea-icon-lg {
-  font-size: 1.3333333333333333em;
+  font-size: 1.33em;
   line-height: 0.75em;
   vertical-align: -15%;
 }
@@ -45,7 +72,7 @@
   font-size: 5em;
 }
 .eea-icon-fw {
-  width: 1.2857142857142858em;
+  width: 1.28em;
   text-align: center;
 }
 .eea-icon-ul {
