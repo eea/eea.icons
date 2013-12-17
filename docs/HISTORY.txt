@@ -1,6 +1,9 @@
 Changelog
 =========
 
+1.2-dev - (unreleased)
+----------------------
+
 1.1 - (2013-12-17)
 ------------------
 * Feature: finished porting the logic from eea.design
