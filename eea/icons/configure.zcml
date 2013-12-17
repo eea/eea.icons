@@ -1,9 +1,11 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:five="http://namespaces.zope.org/five"
     i18n_domain="eea">
 
   <includeDependencies package="."/>
+  <five:registerPackage package="."  />
 
   <include file="profiles.zcml" />
   <include file="skins.zcml" />
