@@ -3,6 +3,12 @@ Changelog
 
 1.1-dev - (unreleased)
 ----------------------
+* Feature: finished porting the logic from eea.design
+  [ichimdav refs #17709]
+* Change: renamed instances of fonts to icons
+  [ichimdav refs #17709]
+* Feature: updated unistall profile
+  [ichimdav refs #17709]
 
 1.0 - (2013-12-17)
 ------------------
