@@ -5,4 +5,16 @@
 
   <!-- Upgrades steps goes here -->
 
+    <genericsetup:upgradeSteps
+            source="*"
+            destination="1.2"
+            profile="eea.icons:default">
+
+        <genericsetup:upgradeDepends
+                title="Import profile steps with changes: stylesheets"
+                import_steps="cssregistry"
+                />
+
+    </genericsetup:upgradeSteps>
+
 </configure>

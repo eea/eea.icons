@@ -3,6 +3,12 @@ Changelog
 
 1.2-dev - (unreleased)
 ----------------------
+* Upgrade step: Within "Plone > Site setup > Add-ons" click on
+  upgrade button available for eea.icons
+  [ichimdav #17711]
+* Change: removed the explicit media query for eea-icons.css
+  otherwise the icons won't be visible within IE8
+  [ichimdav refs #17711]
 
 1.1 - (2013-12-17)
 ------------------
