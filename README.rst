@@ -1,24 +1,31 @@
-======================
+=========
 EEA Icons
-======================
+=========
 .. image:: http://ci.eionet.europa.eu/job/eea.icons-www/badge/icon
   :target: http://ci.eionet.europa.eu/job/eea.icons-www/lastBuild
 .. image:: http://ci.eionet.europa.eu/job/eea.icons-plone4/badge/icon
   :target: http://ci.eionet.europa.eu/job/eea.icons-plone4/lastBuild
 
-EEA Icons used throughout the EEA sites
 
-Contents
-========
+Introduction
+============
+Font Awesome icons for Plone and EEA packages
+
+.. note ::
+
+  This add-on doesn't do anything by itself. It needs to be integrated by a
+  developer within your own products. For reference you can check
+  the `eea.progressbar`_ package.
+
 
 .. contents::
+
 
 Main features
 =============
 
-1.
-2.
-3.
+1. Register Font Awesome icons into Plone CSS registry
+
 
 Install
 =======
@@ -31,16 +38,20 @@ Install
 Getting started
 ===============
 
-1.
-2.
-3.
+Simply use the <span> tag with specific classes as following::
 
-Dependencies
-============
+  <span class="eea-icon eea-icon-camera-retro"></span>
 
-1.
-2.
-3.
+
+You can use the entire set of `Font Awesome icons`_ .
+Font Awesome gives you scalable vector icons that can instantly be
+customized - size, color, drop shadow, and anything that can be done with
+the power of CSS.
+
+There are many ways to customise the icons display. See the `practical examples`_
+and just replace the generic **fa-** classname with our **eea-icon-**
+class prefix.
+
 
 Source code
 ===========
@@ -69,3 +80,6 @@ Funding
 EEA_ - European Environment Agency (EU)
 
 .. _EEA: http://www.eea.europa.eu/
+.. _`eea.progressbar`: http://eea.github.com/docs/eea.progressbar
+.. _`practical examples`: http://fontawesome.io/examples/
+.. _`Font Awesome icons`: http://fontawesome.io/icons/
