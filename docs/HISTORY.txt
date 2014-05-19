@@ -3,6 +3,8 @@ Changelog
 
 1.3-dev - (unreleased)
 ----------------------
+* Feature: updated Font-awesome fonts and icons to 4.1
+  [ichim-david refs #19536]
 
 1.2 - (2014-01-22)
 ------------------
