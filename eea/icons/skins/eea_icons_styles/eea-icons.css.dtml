@@ -57,7 +57,7 @@
 /* makes the font 33% larger relative to the icon container */
 .eea-icon-lg {
   font-size: 1.33333em;
-  line-height: 0.75em;
+  line-height: inherit;
   vertical-align: -15%;
 }
 
