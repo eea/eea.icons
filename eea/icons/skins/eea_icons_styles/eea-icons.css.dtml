@@ -10,13 +10,13 @@
 
 /* <dtml-if expr="'wkhtmltopdf' in REQUEST.HTTP_USER_AGENT"> */
 
-/* To generate base64 FontAwesome string to be used with wkhtmltopdf head to:             */
+/* To generate base64 FontAwesome string to be used with wkhtmltopdf:                     */
 /*  - Uploaded the ttf to the http://www.fontsquirrel.com/tools/webfont-generator,        */
 /*  - Selected expert mode                                                                */
 /*  - Set the css to base64 encode                                                        */
-/*  - And selected a custom sub-setting with a unicode range of xf000-xf112               */
+/*  - Select a custom sub-setting with a unicode range of xf000-xf112                     */
 
-/* FontAwesome v=4.1.0 */
+/* FontAwesome TTF v=4.1.0 */
 
 @font-face {
     font-family: 'FontAwesome';
