@@ -5,6 +5,8 @@ Changelog
 ----------------------
 * Bug fix: Fix Font-Awesome icons within PDFs generated with wkhtmltopdf
   [voineali refs #21149]
+* Feature: Plone 5 compatible
+  [avoinea]
 
 1.3 - (2014-06-06)
 ------------------
