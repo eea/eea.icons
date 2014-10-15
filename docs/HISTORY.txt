@@ -1,6 +1,9 @@
 Changelog
 =========
 
+1.5-dev - (unreleased)
+----------------------
+
 1.4 - (2014-10-15)
 ------------------
 * Bug fix: Fix Font-Awesome icons within PDFs generated with wkhtmltopdf
