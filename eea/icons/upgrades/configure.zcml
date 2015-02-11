@@ -4,6 +4,17 @@
   i18n_domain="eea">
 
   <!-- Upgrades steps goes here -->
+    <genericsetup:upgradeSteps
+            source="1.2"
+            destination="1.5"
+            profile="eea.icons:default">
+
+        <genericsetup:upgradeDepends
+                title="Import profile steps with changes: stylesheets"
+                import_steps="cssregistry"
+                />
+
+    </genericsetup:upgradeSteps>
 
     <genericsetup:upgradeSteps
             source="*"

@@ -3,6 +3,11 @@ Changelog
 
 1.5-dev - (unreleased)
 ----------------------
+* Upgrade step: Within "Plone > Site setup > Add-ons" click on
+  upgrade button available for eea.icons
+  [voineali refs #22969]
+* Feature: Support Font Awesome Animation http://l-lin.github.io/font-awesome-animation/
+  [voineali refs #22969]
 
 1.4 - (2014-10-15)
 ------------------
@@ -39,4 +44,3 @@ Changelog
 1.0 - (2013-12-17)
 ------------------
 - Initial release
-

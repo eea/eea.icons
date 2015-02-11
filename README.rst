@@ -24,7 +24,8 @@ Font Awesome icons for Plone and EEA packages
 Main features
 =============
 
-1. Register Font Awesome icons into Plone CSS registry
+1. Register `Font Awesome icons`_ into Plone CSS registry
+2. Register `Font Awesome Animation`_ into Plone CSS registry
 
 
 Install
@@ -42,6 +43,10 @@ Simply use the <span> tag with specific classes as following::
 
   <span class="eea-icon eea-icon-camera-retro"></span>
 
+And for animated icons::
+
+  <span class="eea-icon eea-icon-heart eea-icon-anim-burst animated"></span>
+
 
 You can use the entire set of `Font Awesome icons`_ .
 Font Awesome gives you scalable vector icons that can instantly be
@@ -50,7 +55,8 @@ the power of CSS.
 
 There are many ways to customise the icons display. See the `practical examples`_
 and just replace the generic **fa-** classname with our **eea-icon-**
-class prefix.
+class prefix and for font awesome animated icons replace **faa-** classname with
+our **eea-icon-anim-** class prefix.
 
 
 Source code
@@ -83,3 +89,4 @@ EEA_ - European Environment Agency (EU)
 .. _`eea.progressbar`: http://eea.github.com/docs/eea.progressbar
 .. _`practical examples`: http://fontawesome.io/examples/
 .. _`Font Awesome icons`: http://fontawesome.io/icons/
+.. _`Font Awesome Animation`: http://l-lin.github.io/font-awesome-animation/

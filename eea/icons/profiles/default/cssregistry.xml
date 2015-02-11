@@ -1,15 +1,5 @@
 <?xml version="1.0"?>
-<!-- This file holds the setup configuration for the portal_css tool. -->
-
 <object name="portal_css">
-
-    <stylesheet title=""
-                id="eea-icons.css"
-                media="" rel="stylesheet" rendering="link"
-                cacheable="True" compression="safe" cookable="True"
-                conditionalcomment=""
-                expression=""
-                insert-before="base.css"
-            />
-
+    <stylesheet id="eea-icons.css" />
+    <stylesheet id="eea-icons-animation.css" />
 </object>
