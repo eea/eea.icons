@@ -1,6 +1,9 @@
 Changelog
 =========
 
+1.7.dev0 - (unreleased)
+-----------------------
+
 1.6 - (2015-03-17)
 ------------------
 * Change: upgraded Font Awesome fonts to version 4.3
