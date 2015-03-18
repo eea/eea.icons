@@ -3,6 +3,9 @@ Changelog
 
 1.7.dev0 - (unreleased)
 -----------------------
+* Change: fixed eea-icons line-height issues after upgrade
+  to version 4.3
+  [ichimdav refs #24129]
 
 1.6 - (2015-03-17)
 ------------------

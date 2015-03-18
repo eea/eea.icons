@@ -40,44 +40,18 @@
 
 /* </dtml-if> */
 
-/* #15235; Expose FontAwesome through eea-icon-* classes */
-/* our own customization or extra classes */
-.eea-icon:before,
-.eea-icon:after {
-    display: inline-block;
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    line-height: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(0, 0);
-    speak: none;
-}
 
-.eea-icon-right {
-    float: right;
-}
 
-.eea-icon-left {
-    float: left;
+/* FONT AWESOME STYLING */
+.eea-icon {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
 }
-
-.eea-icon:before {
-    margin:0 .3em;
-}
-.eea-icon.eea-icon-left {
-    margin-right: .3em;
-}
-
-.eea-icon.eea-icon-right {
-    margin-left: .3em;
-}
-
-/* end own customizations */
-
-/* makes the font 33% larger relative to the icon container */
 /* makes the font 33% larger relative to the icon container */
 .eea-icon-lg {
     font-size: 1.333em;
@@ -142,11 +116,11 @@
     float: left;
 }
 
-.fa.pull-left {
+.eea-icon.pull-left {
     margin-right: .3em;
 }
 
-.fa.pull-right {
+.eea-icon.pull-right {
     margin-left: .3em;
 }
 
@@ -2406,3 +2380,37 @@
 .eea-icon-medium:before {
     content: "\f23a";
 }
+
+/* /END FONT AWESOME STYLING */
+
+
+
+/* #15235; Expose FontAwesome through eea-icon-* classes */
+/* our own customization or extra classes */
+.eea-icon {
+    /* #24129 FIX icon line-height issues when using floats with icons
+       this effectively removes the line-height set from fontawesome
+    */
+    line-height: inherit;
+}
+
+.eea-icon-right {
+    float: right;
+}
+
+.eea-icon-left {
+    float: left;
+}
+
+.eea-icon:before {
+    margin:0 .3em;
+}
+.eea-icon.eea-icon-left {
+    margin-right: .3em;
+}
+
+.eea-icon.eea-icon-right {
+    margin-left: .3em;
+}
+
+/* end own customizations */
