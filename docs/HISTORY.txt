@@ -3,6 +3,9 @@ Changelog
 
 1.8.dev0 - (unreleased)
 -----------------------
+* Change: eea-icons.js now checks if we need to add the icons within the icon
+  right and left containers
+  [ichimdav #27215]
 
 1.7 - (2015-04-02)
 ------------------
