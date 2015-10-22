@@ -2394,6 +2394,11 @@
     line-height: inherit;
 }
 
+.eea-icon-block {
+    display: block;
+    line-height: initial;
+}
+
 .eea-icon-right {
     float: right;
 }
@@ -2413,4 +2418,31 @@
     margin-left: .3em;
 }
 
+.eea-icon-xlsx:before,
+.eea-icon-xls:before {
+    content: "\f1c3";
+}
+
+.eea-icon-pdf:before {
+    content: "\f1c1";
+}
+
+.eea-icon-application:before,
+.eea-icon-txt:before,
+.eea-icon-eeafigurefile-icon:before,
+.eea-icon-doc:before {
+    content: "\f0f6";
+}
+
+.eea-icon-zip:before {
+    content: "\f1c6";
+}
+
+.eea-icon-text:before {
+    content: "\f1c9";
+}
+
+.eea-icon-ppt:before {
+    content: "\f1c4";
+}
 /* end own customizations */
