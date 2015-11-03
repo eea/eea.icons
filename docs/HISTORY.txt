@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.9.dev0 - (unreleased)
------------------------
+1.9 - (2015-11-03)
+------------------
 * Change: eea-icons.css now define extra content type extension names
   [ichimdav refs #28967]
 
