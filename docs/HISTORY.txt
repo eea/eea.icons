@@ -1,8 +1,8 @@
 Changelog
 =========
 
-2.0.dev0 - (unreleased)
------------------------
+2.0 - (2015-12-11)
+------------------
 * Bug fix: Fix read permission on eea-icons-annimation.css.dtml file
   [voineali refs #27406]
 
