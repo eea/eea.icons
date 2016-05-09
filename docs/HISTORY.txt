@@ -3,6 +3,8 @@ Changelog
 
 2.1.dev0 - (unreleased)
 -----------------------
+* Bug fix: Fix pylint warnings
+  [ichim-david refs #71940]
 
 2.0 - (2015-12-11)
 ------------------
