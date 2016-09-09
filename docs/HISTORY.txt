@@ -3,6 +3,8 @@ Changelog
 
 2.2.dev0 - (unreleased)
 -----------------------
+* Bug fix: Fixed HTTP/HTTPS mixed content within CSS
+  [voineali refs #74910]
 
 2.1 - (2016-05-19)
 ------------------
