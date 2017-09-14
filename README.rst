@@ -1,11 +1,8 @@
 =========
 EEA Icons
 =========
-.. image:: http://ci.eionet.europa.eu/job/eea.icons-www/badge/icon
-  :target: http://ci.eionet.europa.eu/job/eea.icons-www/lastBuild
-.. image:: http://ci.eionet.europa.eu/job/eea.icons-plone4/badge/icon
-  :target: http://ci.eionet.europa.eu/job/eea.icons-plone4/lastBuild
-
+.. image:: http://ci.eionet.europa.eu/job/eea/job/eea.icons/job/master/badge/icon
+  :target: http://ci.eionet.europa.eu/job/eea/job/eea.icons/job/master/display/redirect
 
 Introduction
 ============
