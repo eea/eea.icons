@@ -2419,6 +2419,10 @@
     margin-left: .3em;
 }
 
+.eea-icon-marginless:before {
+    margin: 0;
+}
+
 .eea-icon-xlsx:before,
 .eea-icon-xls:before {
     content: "\f1c3";
