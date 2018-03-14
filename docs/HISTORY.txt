@@ -1,8 +1,16 @@
 Changelog
 =========
 
-2.6.dev0 - (unreleased)
------------------------
+2.7 - (2018-03-14)
+------------------
+* Change: added eea-icon-marginless class useful for icons that
+  need no left and right margin
+  [ichim-david refs #91590]
+* Extend uninstall profile.
+  [thet]
+
+2.6 - (2017-12-12)
+------------------
 * Change: Replace eeacms/zptlint with eeacms/plone-test:4 zptlint
   [avoinea refs #90415]
 

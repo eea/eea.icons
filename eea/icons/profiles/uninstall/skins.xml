@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<object name="portal_skins">
+
+    <object remove="True" name="eea_icons_fonts" meta_type="Filesystem Directory View"
+            directory="eea.icons:skins/eea_icons_fonts" />
+
+    <object remove="True" name="eea_icons_styles" meta_type="Filesystem Directory View"
+            directory="eea.icons:skins/eea_icons_styles" />
+
+    <object remove="True" name="eea_icons_javascripts" meta_type="Filesystem Directory View"
+            directory="eea.icons:skins/eea_icons_javascripts" />
+
+    <skin-path name="*" purge="False">
+        <layer remove="True" name="eea_icons_fonts" insert-after="custom" />
+        <layer remove="True" name="eea_icons_styles" insert-after="custom" />
+        <layer remove="True" name="eea_icons_javascripts" insert-after="custom" />
+    </skin-path>
+</object>
+
