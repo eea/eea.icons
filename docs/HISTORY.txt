@@ -1,8 +1,11 @@
 Changelog
 =========
 
-2.7.dev0 - (unreleased)
------------------------
+2.7 - (2018-03-14)
+------------------
+* Change: added eea-icon-marginless class useful for icons that
+  need no left and right margin
+  [ichim-david refs #91590]
 * Extend uninstall profile.
   [thet]
 
