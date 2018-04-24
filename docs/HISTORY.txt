@@ -1,6 +1,9 @@
 Changelog
 =========
 
+2.9-dev0 - (unreleased)
+---------------------
+
 2.8 - (2018-04-18)
 ------------------
 * Bug fix: fixed fontAwesome loading for IE11 on Windows 7 by
@@ -120,4 +123,3 @@ Changelog
 1.0 - (2013-12-17)
 ------------------
 - Initial release
-
