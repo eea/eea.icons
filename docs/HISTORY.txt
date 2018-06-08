@@ -3,6 +3,8 @@ Changelog
 
 3.0-dev0 - (unreleased)
 ---------------------
+* Bug fix: fixed failed to decode downloaded font
+  [avoinea refs #96029]
 
 2.9 - (2018-05-24)
 -----------------------
