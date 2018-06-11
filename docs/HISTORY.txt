@@ -1,6 +1,9 @@
 Changelog
 =========
 
+3.1-dev0 - (unreleased)
+---------------------
+
 3.0 - (2018-06-08)
 ---------------------
 * Bug fix: fixed failed to decode downloaded font
