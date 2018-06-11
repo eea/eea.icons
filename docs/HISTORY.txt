@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.0 - (2018-06-08)
+---------------------
+* Bug fix: fixed failed to decode downloaded font
+  [avoinea refs #96029]
+
 2.9 - (2018-05-24)
 -----------------------
 * Bug fix: fixed fontAwesome loading
