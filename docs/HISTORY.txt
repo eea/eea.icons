@@ -1,6 +1,13 @@
 Changelog
 =========
 
+3.1 - (2018-06-22)
+---------------------
+* Change: updated URLs pointing to eea.europa.eu with https://
+  [alecghica refs #95849]
+* Feature: upgraded Font Awesome from v4.4.0 to v4.7.0
+  [alecghica refs #95849]
+
 3.0 - (2018-06-08)
 ---------------------
 * Bug fix: fixed failed to decode downloaded font

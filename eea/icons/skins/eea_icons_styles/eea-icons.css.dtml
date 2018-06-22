@@ -1,7 +1,7 @@
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> */
 
 /*!
- *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
@@ -15,7 +15,7 @@
 /*  - Set the css to base64 encode                                                        */
 /*  - Select a custom sub-setting with a unicode range of xf000-xf112                     */
 
-/* FontAwesome TTF v=4.3.0 */
+/* FontAwesome TTF v=4.7.0 */
 
 @font-face {
     font-family: 'FontAwesome';
@@ -29,11 +29,11 @@
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url("&dtml-xurl;/fontawesome-webfont.eot?v=4.4.0") format("embedded-opentype"),
-    url("&dtml-xurl;/fontawesome-webfont.woff?v=4.4.0") format("woff"),
-    url("&dtml-xurl;/fontawesome-webfont.woff2?v=4.4.0") format("woff2"),
-    url("&dtml-xurl;/fontawesome-webfont.ttf?v=4.4.0") format("truetype"),
-    url("&dtml-xurl;/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+    src: url("&dtml-xurl;/fontawesome-webfont.eot?v=4.7.0") format("embedded-opentype"),
+    url("&dtml-xurl;/fontawesome-webfont.woff?v=4.7.0") format("woff"),
+    url("&dtml-xurl;/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
+    url("&dtml-xurl;/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
+    url("&dtml-xurl;/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
     font-weight: normal;
     font-style: normal;
 }

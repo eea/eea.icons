@@ -86,8 +86,8 @@ Funding
 
 EEA_ - European Environment Agency (EU)
 
-.. _EEA: http://www.eea.europa.eu/
-.. _`eea.progressbar`: http://eea.github.com/docs/eea.progressbar
+.. _EEA: https://www.eea.europa.eu/
+.. _`eea.progressbar`: https://eea.github.io/docs/eea.progressbar
 .. _`practical examples`: http://fontawesome.io/examples/
 .. _`Font Awesome icons`: http://fontawesome.io/icons/
 .. _`Font Awesome Animation`: http://l-lin.github.io/font-awesome-animation/
