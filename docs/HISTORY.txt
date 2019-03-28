@@ -3,6 +3,8 @@ Changelog
 
 3.3-dev0 - (unreleased)
 ---------------------
+* Change: added missing icons within css now that we use font awesome 4.7.0
+  [ichim-david refs #102564]
 
 3.2 - (2019-01-28)
 ---------------------
